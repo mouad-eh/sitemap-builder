@@ -79,12 +79,6 @@ func bfs(urlStr string, depth int) []string {
 	return ret
 }
 
-func withPrefix(pfx string) func(string) bool {
-	return func(link string) bool {
-		return strings.HasPrefix(link, pfx)
-	}
-}
-
 func get(urlStr string) []string {
 	resp, err := http.Get(urlStr)
 	if err != nil {
@@ -125,4 +119,10 @@ func hrefs(htmlPage io.Reader, base string) []string {
 		}
 	}
 	return ret
+}
+
+func withPrefix(pfx string) func(string) bool {
+	return func(link string) bool {
+		return strings.HasPrefix(link, pfx)
+	}
 }
