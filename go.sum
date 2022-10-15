@@ -1,0 +1,4 @@
+github.com/mouad-eh/html-link-parser v0.0.0-20221012180137-609318acd942 h1:HhcoT2nXWGObzk2kf5fYfPmQjVcPM1YCuPhiKfhMcZU=
+github.com/mouad-eh/html-link-parser v0.0.0-20221012180137-609318acd942/go.mod h1:zZeUaNEP7z8L6SGVo6GITPBZftMTGf3MCeNTpIJndJU=
+golang.org/x/net v0.0.0-20221012135044-0b7e1fb9d458 h1:MgJ6t2zo8v0tbmLCueaCbF1RM+TtB0rs3Lv8DGtOIpY=
+golang.org/x/net v0.0.0-20221012135044-0b7e1fb9d458/go.mod h1:YDH+HFinaLZZlnHAfSS6ZXJJ9M9t4Dl22yv3iI2vPwk=
